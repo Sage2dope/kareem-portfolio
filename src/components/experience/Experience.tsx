@@ -15,11 +15,11 @@ export const Experience = () => {
 const experience = [
   {
     title: "BT Group",
-    position: "Connections Guide",
+    position: "Network Operations Specialist",
     time: "2024 - Present",
     location: "England, UK",
     description:
-      "Helping connect clients with the right solutions. Providing excellent customer service and technical support.",
+      "Analysed incident trends across BT and EE services, carrying out root cause analysis and recommending improvements.",
     tech: [
       "Albert Knowledge Base",
       "Salesforce",
@@ -31,19 +31,19 @@ const experience = [
   },
   {
     title: "Unitedsea.org",
-    position: "Lead Software Engineer",
-    time: "2024 - 2025",
+    position: "Legal Technology Lead",
+    time: "2025 - Present",
     location: "London",
     description:
-      "Leading a team to develop a platform for digitizing trade documents worldwide. Implemented features to enhance user experience and streamline operations.",
+      "Leading a team to build a document automation platform that digitises legally binding trade documents, including bills of lading, certificates of origin and invoices. Translated legal and regulatory requirements from the ICC, DCSA and GLEIF into practical workflows, prototyping quickly with AI coding tools.",
     tech: [
       "React",
       "Node",
-      "Typescript",
-      "Blockchain",
-      "Postgres",
+      "TypeScript",
+      "Document Automation",
       "Smart Contracts",
-      "CouchDB",
+      "Azure",
+      "Microsoft 365",
     ],
   },
   {

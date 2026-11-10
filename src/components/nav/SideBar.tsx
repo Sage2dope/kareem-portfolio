@@ -62,6 +62,14 @@ export const SideBar = () => {
       <SideBarLink
         selected={selected}
         setSelected={setSelected}
+        value="publication"
+        href="#publication"
+      >
+        Pub.
+      </SideBarLink>
+      <SideBarLink
+        selected={selected}
+        setSelected={setSelected}
         value="contact"
         href="#contact"
       >

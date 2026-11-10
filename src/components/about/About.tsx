@@ -16,34 +16,34 @@ export const About = () => {
                 H
               </span>
               ey! I&apos;m Kareem, if you haven&apos;t already gathered that by
-              now. I&apos;m a digital trade strategist turned software engineer
-              from England. I specialize in the backend, primarily Node and
-              Django, but love building with whatever tools are right for the
-              job.
+              now. I&apos;m a qualified lawyer (LLM, Distinction) turned
+              software engineer in England. I sit where law meets technology:
+              understanding how legal teams work, spotting what would genuinely
+              help, and prototyping it with Python, JavaScript, LLM APIs, Power
+              Platform and AI coding tools.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              I currently work for BT Group on the connections team. I also toss
-              in my ¢2 with the design systems teams at Unitedsea from time to
-              time (they make some pretty cool stuff!). Previously, I&apos;ve
-              worked at a handful of startups and smaller companies building
-              everything from internal tools to full fledged customer products.
+              I currently work at BT Group, where I built EE TV assist tool for diagnostic purposes . At Unitedsea, I led an engineering team where we built
+              a legal document automation platform for international trade. Most
+              recently, I built an NDA Review Assistant that flags risky clauses
+              against a playbook. I&apos;ve also published research on AI and
+              automation in law firms.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
               Outside of work, I love to read and play video games. Any given
               Sunday you&apos;ll find me either with my nose in a book or
-              exploring some new video gaming gear.
+              exploring the latest legal AI tools.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              I&apos;m passively looking for new positions where I can utilize
-              my love for code with solving complex problems. If you think
-              you&apos;ve got an opening that I might like, let&apos;s connect
-              🔗
+              I&apos;m actively looking for a role where I can turn ideas into
+              practical legal innovation. If you think you&apos;ve got an
+              opening that I might like, let&apos;s connect 🔗
             </p>
           </Reveal>
           <Reveal>

@@ -14,18 +14,18 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <h2 className="pointer-events-auto my-2 text-xl sm:text-2xl text-zinc-300 md:my-4 md:text-4xl">
-              I'm a{" "}
+              {" "}
               <span className="font-semibold text-indigo-500">
-                Full Stack Developer
+                Lawyer and Software Engineer
               </span>
             </h2>
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
-              I've spent the last 4 years building and scaling software for some
-              companies and startups. I also write and create cross-border
-              digital trade strategies content (incase you've got a good idea on
-              the digitalization of trade in the coming years). Let's connect!
+              I turn legal and business ideas into working AI and automation
+              solutions. Backed by legal training and 4 years of building
+              software, I create tools lawyers actually want to use. Let's
+              connect!
             </p>
           </Reveal>
           <Reveal>

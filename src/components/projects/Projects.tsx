@@ -18,6 +18,28 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "NDA Review Assistant",
+    imgSrc: "project-imgs/ndareview.png",
+    projectLink: "https://nda-review-assistant.streamlit.app/",
+    tech: ["Python", "Streamlit", "LLM", "NLP"],
+    description:
+      "An AI-powered tool that reviews Non-Disclosure Agreements, flags risky or unusual clauses and summarises the key terms so you know what you are signing.",
+    modalContent: (
+      <>
+        <p>
+          NDA Review Assistant is a web app I built to take the pain out of
+          reading Non-Disclosure Agreements. Upload or paste an NDA and it
+          breaks the document down clause by clause.
+        </p>
+        <p>
+          It highlights risky or one-sided terms, summarises the key
+          obligations and suggests points worth negotiating. The app is built
+          in Python with Streamlit and deployed on Streamlit Community Cloud.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Unitedsea.org",
     imgSrc: "project-imgs/unitedsea.png",
     projectLink: "https://unitedsea.org/#problems",
@@ -39,7 +61,7 @@ const projects = [
     imgSrc: "project-imgs/EE-TV-Assist.png",
     tech: ["TypeScript", "Linux", "Docker Compose", "AWS", "Android SDK Emulator"],
     description:
-      "A remote support platform I built at EE that lets agents control a customer's TV box and see its screen live. Recognised by the Head of Marketing and now on the roadmap for the wider organisation.",
+      "(Internal tool) A remote support platform I built at EE that lets agents control a customer's TV box and see its screen live. Recognised by the Head of Marketing and now on the roadmap for the wider organisation.",
     modalContent: (
       <>
         <p>
@@ -59,17 +81,19 @@ const projects = [
           the Head of Marketing and is now on the roadmap for the wider
           organisation.
         </p>
+        <p className="text-sm text-zinc-400">
+          This is an internal tool, so the live project and source code are
+          confidential and cannot be shared.
+        </p>
       </>
     ),
   },
   {
     title: "OZ Banking",
     imgSrc: "project-imgs/OZ-Banking.png",
-    code: "https://github.com/Sage2dope/OZ_banking",
-    projectLink: "https://oz-banking-ze67.vercel.app/sign-in",
     tech: ["NextJS", "TypeScript", "Prisma", "Tailwind CSS", "PostgreSQL"],
     description:
-      "OZ Banking is a full-stack banking application built with NextJS and TypeScript. It features user authentication, account management, and transaction history.",
+      "(Internal tool) OZ Banking is a full-stack banking application built with NextJS and TypeScript. It features user authentication, account management, and transaction history.",
     modalContent: (
       <>
         <p>
@@ -77,26 +101,9 @@ const projects = [
           TypeScript. It features user authentication, account management, and
           transaction history.
         </p>
-      </>
-    ),
-  },
-  {
-    title: "For Food Only",
-    imgSrc: "project-imgs/ForFoodOnly.png",
-    projectLink: "https://www.forfoodonly.co.uk",
-    tech: ["React", "Vite", "Railway"],
-    description:
-      "A website platform for FFO, a home-cooked food catering service. Customers can order fresh, healthy meals with calorie info for every dish.",
-    modalContent: (
-      <>
-        <p>
-          For Food Only (FFO) is a website platform I built for a recent food
-          catering service offering home-cooked meals made with love.
-        </p>
-        <p>
-          Customers can browse the menu and order fresh, healthy food, with
-          calorie information shown for each dish. The frontend is built with
-          React & Vite and deployed on Railway.
+        <p className="text-sm text-zinc-400">
+          This is an internal tool, so the live project and source code are
+          confidential and cannot be shared.
         </p>
       </>
     ),

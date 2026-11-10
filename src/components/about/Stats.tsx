@@ -13,6 +13,7 @@ export const Stats = () => {
           </h4>
           <div className="flex flex-wrap gap-2 mb-12">
             <Chip>JavaScript</Chip>
+            <Chip>Python</Chip>
             <Chip>TypeScript</Chip>
             <Chip>HTML</Chip>
             <Chip>CSS</Chip>
@@ -44,7 +45,6 @@ export const Stats = () => {
             <Chip>Whimsical</Chip>
             <Chip>Planetscale</Chip>
             <Chip>GraphQL</Chip>
-            <Chip>Python</Chip>
             <Chip>FastAPI</Chip>
           </div>
         </div>

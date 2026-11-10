@@ -23,11 +23,10 @@ export const Contact = () => {
             </Link>{" "}
             or{" "}
             <Link
-              href="https://www.twitter.com/sage2dope"
-              target="_blank"
+              href="mailto:popezamani@gmail.com"
               className="text-indigo-300 hover:underline"
             >
-              Twitter
+              Email
             </Link>{" "}
             if that&apos;s more your speed.
           </p>
